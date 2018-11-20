@@ -1,0 +1,24 @@
+{
+    "name": "conflict-network/common-pop",
+    "description": "An implementation of the Conflict Networks common network-layer components in plain old php.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jack Noordhuis",
+            "email": "daswaggamer@gmail.com"
+        }
+    ],
+    "require": {
+        "conflict-network/common-traits": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ConflictNetwork\\Common\\Implementation\\POP\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
