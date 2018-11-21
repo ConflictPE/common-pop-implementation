@@ -39,7 +39,7 @@ class Game implements IGame {
 	 * @param int $max
 	 */
 	public function __construct(GameId $id, GameType $type, int $online, int $max) {
-		$this->initGame($id, $type, $online, $max);
+		$this->initialiseGame($id, $type, $online, $max);
 	}
 
 }

@@ -38,7 +38,7 @@ class Player implements IPlayer {
 	 * @param string $lastServerId
 	 */
 	public function __construct(PlayerId $id, string $lastAddress, string $lastServerId) {
-		$this->initPlayer($id, $lastAddress, $lastServerId);
+		$this->initialisePlayer($id, $lastAddress, $lastServerId);
 	}
 
 }
