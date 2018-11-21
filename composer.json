@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "conflict-network/common-traits": "*"
+        "conflict-network/common-traits": "1.0.*"
     },
     "autoload": {
         "psr-4": {
